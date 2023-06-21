@@ -17,47 +17,38 @@
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#">jlparradiaz</a>
-     <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="#header">Home</a>
-          <a class="nav-item nav-link" href="#info-one">About</a>
-          <a class="nav-item nav-link" href="#contact">Contact</a>
-        </div>
-      </div>-->
+     
     </nav>
 
     <!-- SECTION -->
     <section id="header">
       <div class="container ">       
-        <h2 style="color: darkred; margin-top: 6ex;"><b>📢ATENCIÓN ESTO PODRIA INTERESARLE!!!</b></h2>
+        <h2 style="color: darkred; margin-top: 6ex;"><b> 📢ATENCIÓN ESTO PODRIA INTERESARLE!!!</b></h2>
         
       </div>
     </section>
 
-    <section id="info1">
+    <section class="info1">
       <div class="container">
-        <p class="h3 mb-2">
+        <p class="h2 mb-2">
           ¿Cómo está tu Salud Ocular?👁️
         </p>
-        <p class="h3 mb-2">
+        <p class="h2 mb-2">
           ✋¿Necesitas detener, corregir y revertir afecciones de salud visual, como:
           <ul>
-            <li class="h4" style="color: darkred;"><b>Conjuntivitis</b></li>
-            <li class="h4" style="color: darkred;"><b>Orzuelos</b></li>
-            <li class="h4" style="color: darkred;"><b>Queratitis</b></li> 
-            <li class="h4" style="color: darkred;"><b>Astigmatismo</b></li>
-            <li class="h4" style="color: darkred;"><b>Presbicia</b></li>
-            <li class="h4" style="color: darkred;"><b>Pterigión</b></li>
-            <li class="h4" style="color: darkred;"><b>Cataratas</b></li>
-            <li class="h4" style="color: darkred;"><b>Glaucoma</b></li>
-            <li class="h4" style="color: darkred;"><b>Ambliopía</b></li>
-            <li class="h4" style="color: darkred;"><b>Entre otras?</b></li>
+            <li class="h2" style="color: darkred;"><b>Conjuntivitis</b></li>
+            <li class="h2" style="color: darkred;"><b>Orzuelos</b></li>
+            <li class="h2" style="color: darkred;"><b>Queratitis</b></li> 
+            <li class="h2" style="color: darkred;"><b>Astigmatismo</b></li>
+            <li class="h2" style="color: darkred;"><b>Presbicia</b></li>
+            <li class="h2" style="color: darkred;"><b>Pterigión</b></li>
+            <li class="h2" style="color: darkred;"><b>Cataratas</b></li>
+            <li class="h2" style="color: darkred;"><b>Glaucoma</b></li>
+            <li class="h2" style="color: darkred;"><b>Ambliopía</b></li>
+            <li class="h2" style="color: darkred;"><b>Entre otras?</b></li>
           </ul>
         </p>
-        <p class="h3 mb-2">
+        <p class="h2 mb-2">
           📱¿Durante cuantas horas al dia utilizas tu celular?, 😩¿sientes cansancio visual de manera constante? 👓, es momento de cuidar tus ojos. Te presento.
           
         </p>
@@ -69,31 +60,29 @@
           </div>
           <div class="col-md-6 my-auto">
             <div class="info-right">
-              <h2><b>Esplendor la Luz de tus Ojos</b></h2>
-              <p class="h4"><b>Salud Visual para toda la Familia</b></p>              
+              <h1 class="h1"><b><b>Esplendor la Luz de tus Ojos</b></b></h1>
+              <p class="h3"><b><b>Salud Visual para toda la Familia</b></b></p>              
             </div>
           </div>
-        </div>
-        
+        </div>        
       </div>
+
     </section>
 
     <section id="info-one">
       <div class="container">
         <br>
         <br>  
-        <a href="https://bit.ly/3J4Q98z" target="_blank" class="btn btn-primary btn-block"><p class="h4"><b>Clic para solicitar información</b></p></a>
+        <a href="https://bit.ly/3J4Q98z" target="_blank" class="btn btn-primary btn-block"><p class="h3"><b>Clic para solicitar información</b></p></a>
         <br>
         <div class="video-responsive">   
             <div>
-               <iframe src="https://www.youtube.com/embed/fmsEi2CeGv8" title="esplendor" frameborder="0" autoplay="1" allowfullscreen></iframe>       
+              <iframe src="https://www.youtube.com/embed/fmsEi2CeGv8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>       
             </div>        
         </div>
         <br>
-        <br> 
-        <br>
-        <br> 
-        <a href="https://bit.ly/3J4Q98z" target="_blank" class="btn btn-primary btn-block"><p class="h4"><b>Clic para solicitar información</b></p></a>
+        <br>        
+        <a href="https://bit.ly/3J4Q98z" target="_blank" class="btn btn-primary btn-block"><p class="h3"><b>Clic para solicitar información</b></p></a>
         <br>
         <br>    
       </div>
@@ -114,6 +103,12 @@
       origin: 'bottom'
     });
 
+    sr.reveal('#header', {
+      duration: 2000,
+      origin: 'right',
+      distance: '300px'
+    });
+
     sr.reveal('.header-content-left', {
       duration: 2000,
       origin: 'top',
@@ -132,7 +127,7 @@
       origin: 'bottom'
     });
 
-    sr.reveal('#info1 div', {
+    sr.reveal('.info1 div', {
       duration: 2000,
       origin: 'left',
       distance: '300px',
@@ -151,3 +146,4 @@
     </script>
   </body>
 </html>
+
